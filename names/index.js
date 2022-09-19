@@ -6,9 +6,12 @@ const getFirstNames = require("../utilities/utils/index");
 
 //console.log(getFirstNames);
 
-const getPeopleInCity = () => {
+const getPeopleInCity = (getFullName) => {
+  
   //console.log(getFirstNames(getFullName));
+  
   return getFirstNames(getFullName);
+  
 };
 
 //getPeopleInCity(getFullName);
